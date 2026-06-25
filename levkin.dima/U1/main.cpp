@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
       return 1;
     }
   }
-  levkin::Vec persons = {0, 0, nullptr};
+  levkin::Vec< levkin::Pair > persons = {0, 0, nullptr};
   size_t total = 0;
   size_t ignored = 0;
   std::istream* input_stream = &std::cin;
